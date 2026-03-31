@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./components/Header";
 import Slider from "./components/Slider";
 import Image from "./components/Image";
+import Banner from "./components/Banner";
 import ImageText from "./components/ImageText";
 import Card from "./components/Card";
 import Text from "./components/Text";
@@ -15,6 +16,7 @@ const App = () => {
       <Image />
       <ImageText />
       <Card />
+      <Banner />
       <Text />
       <Footer />
     </>
