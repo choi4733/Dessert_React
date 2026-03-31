@@ -8,7 +8,7 @@ const Banner = () => {
         <h3 className="title">특별함으로 물들어요</h3>
         <p className="desc">
           카페와 어울리는 세상의 모든 디저트{" "}
-          <a href="#" title="투썸플레이스 이동">
+          <a href="/" title="투썸플레이스 이동">
             www.twosme.co.kr
           </a>
         </p>
