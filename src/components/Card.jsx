@@ -1,10 +1,10 @@
 import React from "react";
 import { cardData } from "../data/cardData";
-const Card = () => {
+const Card = (props) => {
   return (
     <section id="cardType" className="section">
-      <h2>카페, 그 이상의 문화를 만들다.</h2>
-      <p>
+      <h2>{props.title}</h2>
+      <p className="element">
         투썸플레이스는 프리미엄 커피 & 디저트 카페의 리딩 브랜드로서 디저트 카페 문화의 차별화된 제품과 서비스를
         선보일것입니다.
       </p>

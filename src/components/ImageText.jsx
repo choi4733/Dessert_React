@@ -1,10 +1,10 @@
 import React from "react";
 import { imgTextData } from "../data/imgTextData";
 
-const ImageText = () => {
+const ImageText = (props) => {
   return (
     <section id="imgTextType" className="section">
-      <h2 className="blind">이미지 텍스트 유형</h2>
+      <h2 className="blind">{props.title}</h2>
       <div className="imgText_inner container">
         <div className="imgText_txt">
           <div className="small">{imgTextData.subtitle}</div>

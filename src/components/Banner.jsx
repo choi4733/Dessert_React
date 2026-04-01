@@ -1,9 +1,9 @@
 import React from "react";
 
-const Banner = () => {
+const Banner = (props) => {
   return (
     <section id="bannerType" className="section">
-      <h2 className="blind">배너 영역</h2>
+      <h2 className="blind">{props.title}</h2>
       <div className="banner_inner">
         <h3 className="title">특별함으로 물들어요</h3>
         <p className="desc">

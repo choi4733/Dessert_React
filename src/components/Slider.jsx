@@ -7,10 +7,10 @@ import "swiper/css/pagination";
 import { Navigation, Pagination } from "swiper/modules";
 import { sliderData } from "../data/sliderData";
 
-const Slider = () => {
+const Slider = (props) => {
   return (
     <section id="sliderType">
-      <h2 className="blind">슬라이드 유형</h2>
+      <h2 className="blind">{props.title}</h2>
       <Swiper
         navigation={true}
         pagination={{ clickable: true }}
