@@ -5,11 +5,10 @@ import "aos/dist/aos.css";
 
 const Card = ({ title, element }) => {
   AOS.init();
-
   return (
     <section id="cardType" className="section">
       <h2>{title}</h2>
-      <p className="element">
+      <p className={element}>
         투썸플레이스는 프리미엄 커피 & 디저트 카페의 리딩 브랜드로서 디저트 카페 문화의 차별화된 제품과 서비스를
         선보일것입니다.
       </p>
