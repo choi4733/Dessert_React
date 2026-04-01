@@ -17,8 +17,7 @@ const App = () => {
     link();
     reveal();
     smooth();
-  });
-
+  }, []);
   return (
     <>
       <Header />
