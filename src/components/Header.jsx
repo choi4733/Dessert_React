@@ -7,7 +7,7 @@ const Header = () => {
       <div className="header_inner">
         <div className="header_logo">
           <a href="/">
-            Dessert <em>Site</em>
+            Dessert22 <em>Site</em>
           </a>
         </div>
         <div className="header_menu">
