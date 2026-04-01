@@ -1,5 +1,11 @@
 import React from "react";
 import { textData } from "../data/textData";
+import { gsap } from "gsap";
+import { useGSAP } from "@gsap/react";
+
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+gsap.registerPlugin(useGSAP, ScrollTrigger);
 
 const Text = (props) => {
   return (
