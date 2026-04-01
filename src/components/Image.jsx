@@ -19,7 +19,6 @@ const Image = (props) => {
       {
         scale: 1,
         opacity: 1,
-        ease: "bounce.inOut",
 
         scrollTrigger: {
           trigger: imgInnerRef.current,
